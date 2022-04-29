@@ -37,5 +37,12 @@ namespace UltimateApp.Test
             int? retVal = Calculator.calculate(3, 3, Operation.Divide);
             Assert.AreEqual(1, retVal);
         }
+
+        [TestMethod]
+        public void ModuloTest()
+        {
+            int? retVal = Calculator.calculate(3, 3, Operation.Divide);
+            Assert.AreEqual(1, retVal);
+        }
     }
 }
