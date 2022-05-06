@@ -14,7 +14,8 @@ namespace UltimateApp.Test
         public void AddTest()
         {
             int? retVal = Calculator.calculate(2, 3, Operation.Add);
-            Assert.AreEqual(5, retVal);
+            //Assert.AreEqual(5, retVal);
+            Assert.AreEqual(6, retVal);
         }
 
         [TestMethod]
